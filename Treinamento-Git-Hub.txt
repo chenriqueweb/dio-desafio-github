@@ -1,0 +1,40 @@
+= Desafio GitHub
+https://github.com/chenriqueweb/dio-desafio-github
+
+Ciar um projeto no GitHub (Nerw Repository)
+
+Cloncar o repositório com HTTPS  <clicar em Clone>
+
+Abrir o GitDash
+
+# Digitar os comandos no Dash:
+
+mkdir dio
+
+cd dio
+
+git clone https://github.com/chenriqueweb/dio-desafio-github.git
+
+cd dio-desafio-github
+
+ls -l -a
+
+git status
+
+mk introducao
+
+vi anotacoes.txt
+
+git status
+
+git add .
+
+git status
+
+git commit -m "Inclusão das anotações do curso de Git/GitHub"
+
+git status
+
+git push origin main
+
+git status
